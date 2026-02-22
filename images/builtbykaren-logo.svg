@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60" width="320" height="60">
+  <defs>
+    <linearGradient id="karenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#3a0eaa"/>
+      <stop offset="50%"  stop-color="#f23a6a"/>
+      <stop offset="100%" stop-color="#ff8c42"/>
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Petrona:wght@700&amp;display=swap');
+      text { font-family: 'Petrona', Georgia, serif; font-weight: 700; }
+    </style>
+  </defs>
+  <text x="0" y="44" font-size="40" letter-spacing="-1" fill="#272525">Built by </text>
+  <text x="198" y="44" font-size="40" letter-spacing="-1" fill="url(#karenGradient)">Karen</text>
+</svg>
