@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Keynotes, Workshops & Consulting — Built by Karen</title>
+    <meta name="description" content="Karen Kelly offers keynote speaking, AI workshops, and strategic consulting for executives, founders, and organizations ready for the Future of Work.">
+    <meta name="author" content="Karen Kelly">
+
+    <meta property="og:title" content="Services | Keynotes, Workshops & Consulting — Built by Karen">
+    <meta property="og:description" content="Karen Kelly offers keynote speaking, AI workshops, and strategic consulting for executives, founders, and organizations ready for the Future of Work.">
+    <meta property="og:image" content="images/Karen-Kelly-Keynote-Speaker.jpg">
+    <meta property="og:url" content="https://builtbykaren.com/services.html">
+    <meta property="og:type" content="website">
+
+    <link rel="canonical" href="https://builtbykaren.com/services.html">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Petrona:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: '#FDFAF7',
+                        charcoal: '#272525',
+                        purple: '#3a0eaa',
+                        'purple-light': '#5a2ed0',
+                        magenta: '#f23a6a',
+                        'magenta-light': '#ff6b8a',
+                        warmgray: '#E5E0DF',
+                        'warm-100': '#F5F0ED',
+                    },
+                    fontFamily: {
+                        body: ['"DM Sans"', 'system-ui', 'sans-serif'],
+                        display: ['"Petrona"', 'Georgia', 'serif'],
+                    },
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'DM Sans', system-ui, sans-serif; }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #3a0eaa 0%, #f23a6a 50%, #ff8c42 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #3a0eaa 0%, #f23a6a 50%, #ff8c42 100%);
+        }
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(58,14,170,0.12);
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-in { animation: fadeInUp 0.8s ease forwards; }
+        .animate-delay-1 { animation-delay: 0.15s; }
+        .animate-delay-2 { animation-delay: 0.3s; }
+    </style>
+</head>
+<body class="bg-cream text-charcoal font-body">
+
+    <!-- ========== NAVIGATION ========== -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-cream/95 backdrop-blur-sm border-b border-warmgray/50">
+        <nav class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="index.html" class="text-xl font-bold tracking-tight text-charcoal font-display">
+                Built by <span class="gradient-text">Karen</span>
+            </a>
+
+            <div class="hidden md:flex items-center gap-8">
+                <a href="index.html" class="text-sm font-medium text-charcoal/70 hover:text-purple transition-colors">Home</a>
+                <a href="services.html" class="text-sm font-medium text-purple transition-colors">Services</a>
+                <a href="about.html" class="text-sm font-medium text-charcoal/70 hover:text-purple transition-colors">Meet Karen</a>
+                <a href="index.html#experience" class="text-sm font-medium text-charcoal/70 hover:text-purple transition-colors">Experience</a>
+                <a href="https://www.linkedin.com/in/karen-kelly-daring-greatly/" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-charcoal/70 hover:text-purple transition-colors">LinkedIn</a>
+                <a href="https://builtbykaren.fillout.com/schedule?name=xxxxx&email=xxxxx" target="_blank" rel="noopener noreferrer" class="inline-block gradient-bg hover:opacity-90 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-opacity">Book Time</a>
+            </div>
+
+            <button id="mobile-menu-btn" class="md:hidden text-charcoal" aria-label="Open menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+        </nav>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-cream border-t border-warmgray px-6 pb-4">
+            <a href="index.html#about" class="block py-3 text-sm font-medium text-charcoal/70 hover:text-purple">About</a>
+            <a href="index.html#contact" class="block py-3 text-sm font-medium text-charcoal/70 hover:text-purple">Contact</a>
+            <a href="services.html" class="block py-3 text-sm font-medium text-purple">Services</a>
+            <a href="index.html#experience" class="block py-3 text-sm font-medium text-charcoal/70 hover:text-purple">Experience</a>
+            <a href="about.html" class="block py-3 text-sm font-medium text-charcoal/70 hover:text-purple">Meet Karen</a>
+            <a href="https://builtbykaren.fillout.com/schedule?name=xxxxx&email=xxxxx" target="_blank" rel="noopener noreferrer" class="block mt-2 text-center gradient-bg text-white text-sm font-semibold px-5 py-2.5 rounded-full">Book Time</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- ========== HERO ========== -->
+        <section class="pt-32 pb-16 md:pt-40 md:pb-20 bg-cream">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
+                    <div class="animate-in">
+                        <p class="text-purple font-bold text-base uppercase tracking-widest mb-4">Services</p>
+                        <h1 class="font-display text-4xl md:text-5xl font-extrabold leading-tight gradient-text mb-8">No matter where you are, you're not behind.</h1>
+                        <p class="text-lg md:text-xl text-charcoal/70 leading-relaxed mb-8">
+                            Every organization comes to AI differently. I build custom adoption programs and deliver inspirational keynotes that meet your culture where it is — so you and your team can move into the future with confidence, not fear.
+                        </p>
+                        <a href="https://builtbykaren.fillout.com/schedule?name=xxxxx&email=xxxxx" target="_blank" rel="noopener noreferrer" class="inline-block gradient-bg hover:opacity-90 text-white font-semibold px-8 py-4 rounded-full transition-opacity text-lg">Let's Work Together &rarr;</a>
+                    </div>
+                    <div class="animate-in animate-delay-1">
+                        <img src="images/Karen-Kelly-Keynote-Speaker.jpg" alt="Karen Kelly — keynote speaker and AI strategist" class="w-full rounded-2xl shadow-xl object-cover aspect-[3/4]">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== TRUSTED BY ========== -->
+        <section class="py-10 bg-white border-y border-warmgray/40">
+            <div class="max-w-5xl mx-auto px-6 text-center">
+<img src="images/trusted-by-logos.png" alt="Trusted by CIC, Techstars, KPMG, TEDx, Softheon, Boston Business Journal, Women Applying AI, Williams College, Harvard, Startup Boston, Adobe, Creative Mornings, MassChallenge, Building AI Boston" class="w-full max-w-6xl mx-auto opacity-80">
+            </div>
+        </section>
+
+        <!-- ========== AI ADOPTION ========== -->
+        <section class="py-20 md:py-28 bg-cream">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-start">
+                    <div>
+                        <p class="text-purple font-bold text-base uppercase tracking-widest mb-3">AI Adoption</p>
+                        <h2 class="font-display text-3xl md:text-4xl font-extrabold text-charcoal mb-6">AI That Fits <span class="gradient-text">Your Culture</span></h2>
+                        <p class="text-charcoal/70 text-lg leading-relaxed mb-4">
+                            Every organization has a different relationship with change. Some teams are eager. Some are skeptical. Most are somewhere in between — and that's exactly where I start.
+                        </p>
+                        <p class="text-charcoal/70 text-lg leading-relaxed mb-4">
+                            Before recommending a single tool, I get to know your leaders, your culture, and your people's attitudes toward AI. The goal isn't speed, it's fit.
+                        </p>
+                        <p class="text-charcoal/70 text-lg leading-relaxed mb-8">
+                            <strong class="text-charcoal">The mission: increase revenue per employee — not eliminate employees.</strong> AI adoption done right makes your people more powerful, not more replaceable.
+                        </p>
+                        <a href="https://builtbykaren.fillout.com/schedule?name=xxxxx&email=xxxxx" target="_blank" rel="noopener noreferrer" class="inline-block gradient-bg hover:opacity-90 text-white font-semibold px-8 py-4 rounded-full transition-opacity text-lg">Start the Conversation &rarr;</a>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow-sm border border-warmgray/50 divide-y divide-warmgray/50">
+                        <div class="flex items-start gap-4 p-5">
+                            <div class="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                                <span class="text-white text-xs font-bold">01</span>
+                            </div>
+                            <div>
+                                <h3 class="font-display text-xl font-bold text-charcoal">Culture & Readiness Assessment</h3>
+                                <p class="text-charcoal/70 leading-relaxed">Map attitudes, fears, and opportunities — no assumptions, just listening.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 p-5">
+                            <div class="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                                <span class="text-white text-xs font-bold">02</span>
+                            </div>
+                            <div>
+                                <h3 class="font-display text-xl font-bold text-charcoal">Custom Adoption Roadmap</h3>
+                                <p class="text-charcoal/70 leading-relaxed">A phased plan built around your team's pace, starting with quick wins.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 p-5">
+                            <div class="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                                <span class="text-white text-xs font-bold">03</span>
+                            </div>
+                            <div>
+                                <h3 class="font-display text-xl font-bold text-charcoal">Hands-On Team Training</h3>
+                                <p class="text-charcoal/70 leading-relaxed">Role-specific workshops that meet every person where they are. No one gets left behind.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 p-5">
+                            <div class="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                                <span class="text-white text-xs font-bold">04</span>
+                            </div>
+                            <div>
+                                <h3 class="font-display text-xl font-bold text-charcoal">Leadership Coaching & Messaging</h3>
+                                <p class="text-charcoal/70 leading-relaxed">Help executives communicate the "why" so AI feels like an upgrade, not a threat.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 p-5">
+                            <div class="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                                <span class="text-white text-xs font-bold">05</span>
+                            </div>
+                            <div>
+                                <h3 class="font-display text-xl font-bold text-charcoal">Measure, Iterate & Sustain</h3>
+                                <p class="text-charcoal/70 leading-relaxed">Ongoing check-ins to track what's landing and where to go next.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== KEYNOTE & WORKSHOP TOPICS ========== -->
+        <section class="py-20 md:py-28 bg-charcoal text-white">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+                    <div>
+                        <p class="text-magenta-light font-semibold text-sm uppercase tracking-widest mb-3">On Stage</p>
+                        <h2 class="font-display text-3xl md:text-4xl font-extrabold mb-4">Keynote & Workshop Topics</h2>
+                        <p class="text-gray-300 leading-relaxed mb-10">
+                            I bring raw honesty, strategic clarity, and contagious energy to every stage. These are my most frequently requested topics.
+                        </p>
+
+                        <div class="space-y-8">
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 gradient-bg rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-display text-xl font-bold mb-2">Communication: Storytelling as a Superpower</h3>
+                                    <p class="text-gray-400 leading-relaxed">How to find your narrative, own your story, and use it as your most powerful trust-building tool — in pitches, on stages, and in life.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 gradient-bg rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-display text-xl font-bold mb-2">AI & Leadership: Inspiring Teams in the AI Age</h3>
+                                    <p class="text-gray-400 leading-relaxed">Practical, no-hype guidance on how leaders can integrate AI to move faster, empower their teams, and stay ahead — without losing the human touch.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 gradient-bg rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-display text-xl font-bold mb-2">Resilience: Leading Effectively Without a Playbook</h3>
+                                    <p class="text-gray-400 leading-relaxed">A guide for the moments that don't make the highlight reel. How to communicate with clarity, trust your gut, and let your experience and relationships carry you through.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-10">
+                            <a href="https://builtbykaren.fillout.com/schedule?name=xxxxx&email=xxxxx" target="_blank" rel="noopener noreferrer" class="inline-block gradient-bg hover:opacity-90 text-white font-semibold px-8 py-4 rounded-full transition-opacity text-lg">Book Karen to Speak</a>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/Karen Kelly AI Speaker Boston.jpg" alt="Karen Kelly — keynote speaker" class="rounded-2xl shadow-2xl w-full object-cover aspect-[3/4]">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CTA ========== -->
+        <section class="py-14 md:py-16 gradient-bg">
+            <div class="max-w-3xl mx-auto px-6 text-center">
+                <h2 class="font-display text-2xl md:text-3xl font-bold text-white mb-3">Ready to Book Me for Your Stage?</h2>
+                <p class="text-white/80 text-lg mb-8">Keynotes, workshops, and strategic sessions tailored for your audience.</p>
+                <a href="https://builtbykaren.fillout.com/schedule?name=xxxxx&email=xxxxx" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-purple font-semibold px-8 py-4 rounded-full hover:bg-cream transition-colors text-lg">Book Time with Karen</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="bg-charcoal border-t border-white/10 text-gray-400 py-12">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <div>
+                    <a href="index.html" class="text-lg font-bold text-white font-display">Built by <span class="gradient-text">Karen</span></a>
+                    <p class="text-sm mt-1">&copy; 2026 Built by Karen. All rights reserved.</p>
+                </div>
+                <div class="flex items-center gap-6">
+                    <a href="about.html" class="text-sm hover:text-white transition-colors">Meet Karen</a>
+                    <a href="services.html" class="text-sm hover:text-white transition-colors">Services</a>
+                    <span class="text-sm">Contact: <a href="mailto:hello@builtbykaren.com" class="hover:text-white transition-colors">hello@builtbykaren.com</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+        menu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => menu.classList.add('hidden')));
+    </script>
+</body>
+</html>

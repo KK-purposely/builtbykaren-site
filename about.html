@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Karen Kelly | 3x Founder, TEDx Editor's Pick, Top 100 Innovator — Built by Karen</title>
+    <meta name="description" content="Karen Kelly is a 3x founder, TEDx Editor's Pick speaker, Top 100 Innovator, and AI leader in the Boston startup ecosystem. Learn more about her story.">
+    <meta name="author" content="Karen Kelly">
+
+    <meta property="og:title" content="About Karen Kelly | 3x Founder, TEDx Editor's Pick, Top 100 Innovator">
+    <meta property="og:description" content="The full story of Karen Kelly — 3x founder, TEDx Editor's Pick, AI strategist, and Top 100 Innovator in 2026.">
+    <meta property="og:image" content="images/Karen-Kelly-Keynote-speaker-2.png">
+    <meta property="og:url" content="https://builtbykaren.com/about.html">
+    <meta property="og:type" content="website">
+
+    <link rel="canonical" href="https://builtbykaren.com/about.html">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Petrona:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: '#FDFAF7',
+                        charcoal: '#272525',
+                        purple: '#3a0eaa',
+                        'purple-light': '#5a2ed0',
+                        magenta: '#f23a6a',
+                        'magenta-light': '#ff6b8a',
+                        warmgray: '#E5E0DF',
+                        'warm-100': '#F5F0ED',
+                    },
+                    fontFamily: {
+                        body: ['"DM Sans"', 'system-ui', 'sans-serif'],
+                        display: ['"Petrona"', 'Georgia', 'serif'],
+                    },
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'DM Sans', system-ui, sans-serif; }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #3a0eaa 0%, #f23a6a 50%, #ff8c42 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #3a0eaa 0%, #f23a6a 50%, #ff8c42 100%);
+        }
+        .gradient-border {
+            border-image: linear-gradient(135deg, #3a0eaa, #f23a6a, #ff8c42) 1;
+        }
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(58,14,170,0.12);
+        }
+        .photo-grid img {
+            transition: transform 0.4s ease, filter 0.4s ease;
+        }
+        .photo-grid img:hover {
+            transform: scale(1.03);
+            filter: brightness(1.05);
+        }
+        .topic-icon {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #3a0eaa, #f23a6a);
+            flex-shrink: 0;
+            margin-top: 8px;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-in {
+            animation: fadeInUp 0.8s ease forwards;
+        }
+        .animate-delay-1 { animation-delay: 0.15s; }
+        .animate-delay-2 { animation-delay: 0.3s; }
+    </style>
+</head>
+<body class="bg-cream text-charcoal font-body">
+
+    <!-- ========== NAVIGATION ========== -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-cream/95 backdrop-blur-sm border-b border-warmgray/50">
+        <nav class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="index.html" class="text-xl font-bold tracking-tight text-charcoal font-display">
+                Built by <span class="gradient-text">Karen</span>
+            </a>
+
+            <div class="hidden md:flex items-center gap-8">
+                <a href="index.html" class="text-sm font-medium text-charcoal/70 hover:text-purple transition-colors">Home</a>
+                <a href="services.html" class="text-sm font-medium text-charcoal/70 hover:text-purple transition-colors">Services</a>
+                <a href="about.html" class="text-sm font-medium text-purple transition-colors">Meet Karen</a>
+                <a href="index.html#experience" class="text-sm font-medium text-charcoal/70 hover:text-purple transition-colors">Experience</a>
+                <a href="https://www.linkedin.com/in/karen-kelly-daring-greatly/" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-charcoal/70 hover:text-purple transition-colors">LinkedIn</a>
+                <a href="https://builtbykaren.fillout.com/schedule?name=xxxxx&email=xxxxx" target="_blank" rel="noopener noreferrer" class="inline-block gradient-bg hover:opacity-90 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-opacity">Book Time</a>
+            </div>
+
+            <button id="mobile-menu-btn" class="md:hidden text-charcoal" aria-label="Open menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+        </nav>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-cream border-t border-warmgray px-6 pb-4">
+            <a href="index.html#about" class="block py-3 text-sm font-medium text-charcoal/70 hover:text-purple">About</a>
+            <a href="index.html#experience" class="block py-3 text-sm font-medium text-charcoal/70 hover:text-purple">Experience</a>
+            <a href="services.html" class="block py-3 text-sm font-medium text-charcoal/70 hover:text-purple">Services</a>
+            <a href="about.html" class="block py-3 text-sm font-medium text-purple">Meet Karen</a>
+            <a href="index.html#contact" class="block mt-2 text-center gradient-bg hover:opacity-90 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-opacity">Book Karen</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- ========== HERO ========== -->
+        <section class="pt-28 pb-12 md:pt-32 md:pb-16 bg-cream">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-10 md:gap-14 items-start">
+                    <div class="animate-in">
+                        <p class="text-purple font-bold text-base uppercase tracking-widest mb-4">Meet Karen</p>
+                        <h1 class="font-display text-4xl md:text-5xl font-extrabold text-charcoal leading-tight mb-6">
+                            3x Founder.<br>
+                            <span class="gradient-text">AI Leader.</span><br>
+                            Storyteller.
+                        </h1>
+                        <p class="text-lg text-charcoal/70 leading-relaxed mb-8 max-w-lg">
+                            I don't just talk about building things - I execute. From the boardroom to the TEDx stage, I show up with strategy, heart, and a refusal to play small.
+                        </p>
+                        <div class="flex flex-col gap-4">
+                            <div class="flex items-center gap-4">
+                                <img src="images/ted-logo.png" alt="TED" class="h-8 object-contain opacity-80">
+                                <div>
+                                    <p class="font-semibold text-charcoal text-sm">TEDx Editor's Pick</p>
+                                    <p class="text-charcoal/50 text-xs">Selected by TEDx Global, 2026</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <img src="images/Karen-Kelly-top-100-Innovator 2.jpg" alt="Top 100 Innovator" class="h-16 w-16 rounded-full object-cover opacity-90">
+                                <div>
+                                    <p class="font-semibold text-charcoal text-sm">Top 100 Innovator</p>
+                                    <p class="text-charcoal/50 text-xs">Redwood Media's Top 100 Magazine, 2026</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="animate-in animate-delay-1" style="margin-top: -18%;">
+                        <img src="images/Karen Kelly AI Consultant Boston.jpg" alt="Karen Kelly — AI consultant and keynote speaker" class="w-4/5 mx-auto rounded-2xl shadow-xl object-contain" style="clip-path: inset(18% 0 0 0);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== THE FULL STORY ========== -->
+        <section class="py-20 md:py-28 bg-warm-100">
+            <div class="max-w-4xl mx-auto px-6">
+                <div class="text-center mb-14">
+                    <p class="text-purple font-bold text-base uppercase tracking-widest mb-3">The Full Story</p>
+                    <h2 class="font-display text-3xl md:text-4xl font-extrabold text-charcoal">Built Different</h2>
+                </div>
+
+                <div class="space-y-6 text-charcoal/80 text-lg leading-relaxed">
+                    <p>
+                        I'm a <strong class="text-charcoal">3x founder</strong>, CEO, TEDx speaker, and one of the most visible AI leaders in the Boston startup ecosystem.
+                    </p>
+                    <h3 class="font-display text-2xl font-bold text-charcoal pt-4">Roots in Communication</h3>
+                    <p>
+                        My career began in Manhattan's largest advertising agency, getting a front row seat on learning the fundamentals of creating brands that stick and messaging that works. A few years later, I started my own media company, which I grew to seven figures in under two years by flipping the industry's race to the bottom model on its head — creating high-value, experiential storytelling packages that brands couldn't resist. I was recruited as CMO of a tech startup and quickly rose to President.
+                    </p>
+                    <p>
+                        Then I walked away.
+                    </p>
+                    <p>
+                        Burned out and navigating the childcare crisis that so many working parents face in silence, I hit what I call my "rock-bottom personal moment." Instead of retreating, I organized. I co-founded <strong class="text-charcoal">Parents for After School Solutions (PASS)</strong>, rallied 500+ parents, partnered with the YMCA, and radically expanded after-school care access in my Massachusetts town. I joined the Economic Development Committee and helped found WaylandCAN, a non-profit aimed at measurably increasing connection and belonging in my town. I began to make a habit of channeling my frustration into community infrastructure.
+                    </p>
+                    <h3 class="font-display text-2xl font-bold text-charcoal pt-4">Community Meets Technology</h3>
+                    <p>
+                        That experience lit a fire. I saw the community crisis clearly: parents were isolated, burned out, and struggling to make plans together — not because they didn't want connection, but because the infrastructure for it didn't exist. So I built it.
+                    </p>
+                    <p>
+                        I founded <strong class="text-charcoal">Purposely Social</strong>, a mobile-first technology platform designed to help parents build deeper relationships in real life, making it easy to sync schedules, find group availability, and actually show up for each other.
+                    </p>
+                    <h3 class="font-display text-2xl font-bold text-charcoal pt-4">Enter AI</h3>
+                    <p>
+                        When AI tools began leveling the playing field for builders everywhere, I saw a door open for a generation of leaders who had the vision but not the code. For the first time, non-technical founders had access to the same building power as any engineer — and almost nobody was showing them how to use it.
+                    </p>
+                    <p>
+                        I founded <a href="https://launchbylunch.co" class="text-purple font-semibold hover:underline">Launch by Lunch</a>, a community for founders who want to move fast with AI and no-code tools, without gatekeeping or fluff. In its first seven months, LBL hosted 59 events, grew to 250+ paying members and a 1,500-person newsletter, with $0 in marketing spend. The inaugural 4-week accelerator sold out in two hours.
+                    </p>
+                    <h3 class="font-display text-2xl font-bold text-charcoal pt-4">Today</h3>
+                    <p>
+                        In 2026, I was named a <strong class="text-charcoal">Top 100 Innovator</strong> by Redwood Media's Top 100 Magazine. My viral TEDx talk on community, parent burnout, and the real health need for social connection was selected as a <strong class="text-charcoal">TEDx Editor's Pick</strong> by TEDx Global, a distinction given to less than 0.07% of all TEDx talks delivered worldwide each year.
+                    </p>
+                    <p>
+                        Today, I operate as <strong class="text-charcoal">Built by Karen</strong> and oversee <strong class="text-charcoal">Launch by Lunch</strong> — bringing my unique blend of startup strategy, AI fluency, and storytelling to stages, boardrooms, and communities across the country. I believe the most powerful infrastructure for the Future of Work isn't technology — it's community. And she's building a world where AI is used for good, ambition isn't a source of shame, connection is treated as a health imperative, and women have the tools, the tribe, and the courage to build on their own terms.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========== CTA ========== -->
+        <section class="py-20 md:py-28 bg-charcoal text-white">
+            <div class="max-w-3xl mx-auto px-6 text-center">
+                <p class="text-magenta-light font-semibold text-sm uppercase tracking-widest mb-4">Ready?</p>
+                <h2 class="font-display text-3xl md:text-4xl font-extrabold mb-6">Let's Build Something Together</h2>
+                <p class="text-gray-300 text-lg leading-relaxed mb-10 max-w-xl mx-auto">
+                    Whether you need a keynote speaker who brings the fire, a strategist who's been in the trenches, or a collaborator who won't let you play small — I'm in.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://builtbykaren.fillout.com/schedule?name=xxxxx&email=xxxxx" target="_blank" rel="noopener noreferrer" class="inline-block gradient-bg hover:opacity-90 text-white font-semibold px-8 py-4 rounded-full transition-opacity text-lg">Get in Touch</a>
+                    <a href="index.html" class="inline-block border-2 border-white/30 hover:border-white text-white font-semibold px-8 py-4 rounded-full text-center transition-colors text-lg">Back to Home</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="bg-charcoal border-t border-white/10 text-gray-400 py-12">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <div>
+                    <a href="index.html" class="text-lg font-bold text-white font-display">Built by <span class="gradient-text">Karen</span></a>
+                    <p class="text-sm mt-1">&copy; 2026 Karen Kelly. All rights reserved.</p>
+                </div>
+                <div class="flex items-center gap-6">
+                    <a href="about.html" class="text-sm hover:text-white transition-colors">About Karen</a>
+                    <a href="mailto:karen@builtbykaren.com" class="text-sm hover:text-white transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+        menu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => menu.classList.add('hidden')));
+    </script>
+</body>
+</html>
